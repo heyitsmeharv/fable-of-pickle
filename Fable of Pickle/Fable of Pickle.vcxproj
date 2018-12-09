@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{5C13CC61-D54E-4806-A9BB-51B677A19339}</ProjectGuid>
+    <RootNamespace>FableofPickle</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Adam\Documents\Visual Studio 2017\Projects\Fable of Pickle\Fable of Pickle\Third Party\SDL\include;C:\Users\Adam\Documents\Visual Studio 2017\Projects\Fable of Pickle\Fable of Pickle\Third Party\SDL2_ttf-2.0.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\Adam\Documents\Visual Studio 2017\Projects\Fable of Pickle\Fable of Pickle\Third Party\SDL\lib\x86;C:\Users\Adam\Documents\Visual Studio 2017\Projects\Fable of Pickle\Fable of Pickle\Third Party\SDL2_ttf-2.0.12\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Adam\Documents\Visual Studio 2017\Projects\Fable of Pickle\Fable of Pickle\Third Party\SDL\include;C:\Users\Adam\Documents\Visual Studio 2017\Projects\Fable of Pickle\Fable of Pickle\Third Party\SDL2_ttf-2.0.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Users\Adam\Documents\Visual Studio 2017\Projects\Fable of Pickle\Fable of Pickle\Third Party\SDL\lib\x86;C:\Users\Adam\Documents\Visual Studio 2017\Projects\Fable of Pickle\Fable of Pickle\Third Party\SDL2_ttf-2.0.12\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Arena.h" />
+    <ClInclude Include="Headers\Bat.h" />
+    <ClInclude Include="Headers\Bitmap.h" />
+    <ClInclude Include="Headers\Bomb.h" />
+    <ClInclude Include="Headers\Boss Door.h" />
+    <ClInclude Include="Headers\Boss Key.h" />
+    <ClInclude Include="Headers\Boss.h" />
+    <ClInclude Include="Headers\Game.h" />
+    <ClInclude Include="Headers\GameObj.h" />
+    <ClInclude Include="Headers\Gold.h" />
+    <ClInclude Include="Headers\Hero.h" />
+    <ClInclude Include="Headers\HUD.h" />
+    <ClInclude Include="Headers\Input.h" />
+    <ClInclude Include="Headers\Item.h" />
+    <ClInclude Include="Headers\Object.h" />
+    <ClInclude Include="Headers\Person.h" />
+    <ClInclude Include="Headers\Projectile.h" />
+    <ClInclude Include="Headers\Skeleton.h" />
+    <ClInclude Include="Headers\SmartMonster.h" />
+    <ClInclude Include="Headers\UTILS.h" />
+    <ClInclude Include="Third Party\SDL2_ttf-2.0.12\include\SDL_ttf.h" />
+    <ClInclude Include="Third Party\SDL\include\begin_code.h" />
+    <ClInclude Include="Third Party\SDL\include\close_code.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_assert.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_atomic.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_audio.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_bits.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_blendmode.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_clipboard.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_config.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_cpuinfo.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_endian.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_error.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_events.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_filesystem.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_gamecontroller.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_gesture.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_haptic.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_hints.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_joystick.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_keyboard.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_keycode.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_loadso.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_log.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_main.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_messagebox.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_mouse.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_mutex.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_name.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_opengl.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_opengles.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_opengles2.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_pixels.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_platform.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_power.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_quit.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_rect.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_render.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_revision.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_rwops.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_scancode.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_shape.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_stdinc.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_surface.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_system.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_syswm.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_test.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_test_assert.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_test_common.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_test_compare.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_test_crc32.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_test_font.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_test_fuzzer.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_test_harness.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_test_images.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_test_log.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_test_md5.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_test_random.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_thread.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_timer.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_touch.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_types.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_version.h" />
+    <ClInclude Include="Third Party\SDL\include\SDL_video.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\Block.psd" />
+    <None Include="assets\Bomb.psd" />
+    <None Include="assets\BombHUD.psd" />
+    <None Include="assets\BOSS.psd" />
+    <None Include="assets\DejaVuSans.LICENSE" />
+    <None Include="assets\Floor.psd" />
+    <None Include="assets\Hero.psd" />
+    <None Include="assets\HUD.psd" />
+    <None Include="assets\libfreetype-6.dll" />
+    <None Include="assets\Lives.psd" />
+    <None Include="assets\LockedDoor.psd" />
+    <None Include="assets\Projectile.psd" />
+    <None Include="assets\SDL2.dll" />
+    <None Include="assets\SDL2_ttf.dll" />
+    <None Include="assets\zlib1.dll" />
+    <None Include="Third Party\SDL2_ttf-2.0.12\lib\x64\libfreetype-6.dll" />
+    <None Include="Third Party\SDL2_ttf-2.0.12\lib\x64\SDL2_ttf.dll" />
+    <None Include="Third Party\SDL2_ttf-2.0.12\lib\x64\zlib1.dll" />
+    <None Include="Third Party\SDL2_ttf-2.0.12\lib\x86\libfreetype-6.dll" />
+    <None Include="Third Party\SDL2_ttf-2.0.12\lib\x86\SDL2_ttf.dll" />
+    <None Include="Third Party\SDL2_ttf-2.0.12\lib\x86\zlib1.dll" />
+    <None Include="Third Party\SDL\lib\x64\SDL2.dll" />
+    <None Include="Third Party\SDL\lib\x86\SDL2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\levels\Boss.txt" />
+    <Text Include="assets\levels\BossLead.txt" />
+    <Text Include="assets\levels\level.txt" />
+    <Text Include="assets\levels\level2.txt" />
+    <Text Include="assets\levels\level3.txt" />
+    <Text Include="assets\levels\level4.txt" />
+    <Text Include="assets\levels\level5.txt" />
+    <Text Include="assets\levels\level6.txt" />
+    <Text Include="assets\levels\level7.txt" />
+    <Text Include="assets\levels\level8.txt" />
+    <Text Include="Third Party\SDL2_ttf-2.0.12\lib\x64\LICENSE.freetype.txt" />
+    <Text Include="Third Party\SDL2_ttf-2.0.12\lib\x64\LICENSE.zlib.txt" />
+    <Text Include="Third Party\SDL2_ttf-2.0.12\lib\x86\LICENSE.freetype.txt" />
+    <Text Include="Third Party\SDL2_ttf-2.0.12\lib\x86\LICENSE.zlib.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Third Party\SDL2_ttf-2.0.12\lib\x64\SDL2_ttf.lib" />
+    <Library Include="Third Party\SDL2_ttf-2.0.12\lib\x86\SDL2_ttf.lib" />
+    <Library Include="Third Party\SDL\lib\x64\SDL2.lib" />
+    <Library Include="Third Party\SDL\lib\x64\SDL2main.lib" />
+    <Library Include="Third Party\SDL\lib\x64\SDL2test.lib" />
+    <Library Include="Third Party\SDL\lib\x86\SDL2.lib" />
+    <Library Include="Third Party\SDL\lib\x86\SDL2main.lib" />
+    <Library Include="Third Party\SDL\lib\x86\SDL2test.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Arena.cpp" />
+    <ClCompile Include="Source\Bat.cpp" />
+    <ClCompile Include="Source\Bitmap.cpp" />
+    <ClCompile Include="Source\Bomb.cpp" />
+    <ClCompile Include="Source\Boss Door.cpp" />
+    <ClCompile Include="Source\Boss Key.cpp" />
+    <ClCompile Include="Source\Boss.cpp" />
+    <ClCompile Include="Source\Game.cpp" />
+    <ClCompile Include="Source\GameObj.cpp" />
+    <ClCompile Include="Source\Gold.cpp" />
+    <ClCompile Include="Source\Hero.cpp" />
+    <ClCompile Include="Source\HUD.cpp" />
+    <ClCompile Include="Source\Input.cpp" />
+    <ClCompile Include="Source\Item.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\Object.cpp" />
+    <ClCompile Include="Source\Person.cpp" />
+    <ClCompile Include="Source\Projectile.cpp" />
+    <ClCompile Include="Source\Skeleton.cpp" />
+    <ClCompile Include="Source\SmartMonster.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\a4_font.bmp" />
+    <Image Include="assets\bat.bmp" />
+    <Image Include="assets\Bat2.bmp" />
+    <Image Include="assets\Bat3.bmp" />
+    <Image Include="assets\Bat4.bmp" />
+    <Image Include="assets\Bat5.bmp" />
+    <Image Include="assets\Block.bmp" />
+    <Image Include="assets\Bomb.bmp" />
+    <Image Include="assets\BombHUD.bmp" />
+    <Image Include="assets\Boss.bmp" />
+    <Image Include="assets\BossDoor.bmp" />
+    <Image Include="assets\Dom.bmp" />
+    <Image Include="assets\Dom.jpg" />
+    <Image Include="assets\Door.bmp" />
+    <Image Include="assets\Floor.bmp" />
+    <Image Include="assets\Gold.bmp" />
+    <Image Include="assets\Hero.bmp" />
+    <Image Include="assets\Hero2.bmp" />
+    <Image Include="assets\Hero3.bmp" />
+    <Image Include="assets\Hero4.bmp" />
+    <Image Include="assets\Hero5.bmp" />
+    <Image Include="assets\HUD.bmp" />
+    <Image Include="assets\Key.bmp" />
+    <Image Include="assets\Lives.bmp" />
+    <Image Include="assets\LockedDoor.bmp" />
+    <Image Include="assets\mushythemushroom.bmp" />
+    <Image Include="assets\Projectile.bmp" />
+    <Image Include="assets\Skeleton.bmp" />
+    <Image Include="assets\Skeleton2.bmp" />
+    <Image Include="assets\Skeleton3.bmp" />
+    <Image Include="assets\Skeleton4.bmp" />
+    <Image Include="assets\Skeleton5.bmp" />
+    <Image Include="assets\WizardBall.bmp" />
+    <Image Include="assets\Wizard_0.bmp" />
+    <Image Include="assets\Wizard_1.bmp" />
+    <Image Include="assets\Wizard_2.bmp" />
+    <Image Include="assets\Wizard_3.bmp" />
+    <Image Include="assets\Wizard_4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\BACKTO1982.TTF" />
+    <Font Include="assets\DejaVuSans.ttf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

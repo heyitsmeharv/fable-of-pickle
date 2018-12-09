@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Third Party\SDL2_ttf-2.0.12\include\SDL_ttf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\begin_code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\close_code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_atomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_bits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_blendmode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_clipboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_cpuinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_endian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_filesystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_gamecontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_gesture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_haptic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_hints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_keycode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_loadso.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_messagebox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_name.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_opengles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_opengles2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_pixels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_power.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_quit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_revision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_rwops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_scancode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_stdinc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_surface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_syswm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_test_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_test_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_test_compare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_test_crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_test_font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_test_fuzzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_test_harness.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_test_images.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_test_log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_test_md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_test_random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_touch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third Party\SDL\include\SDL_video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Arena.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Bat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Bomb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Boss Door.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Boss Key.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Boss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Gold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Hero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\HUD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Person.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Projectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Skeleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\SmartMonster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\UTILS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Third Party\SDL2_ttf-2.0.12\lib\x64\libfreetype-6.dll" />
+    <None Include="Third Party\SDL2_ttf-2.0.12\lib\x64\SDL2_ttf.dll" />
+    <None Include="Third Party\SDL2_ttf-2.0.12\lib\x64\zlib1.dll" />
+    <None Include="Third Party\SDL2_ttf-2.0.12\lib\x86\libfreetype-6.dll" />
+    <None Include="Third Party\SDL2_ttf-2.0.12\lib\x86\SDL2_ttf.dll" />
+    <None Include="Third Party\SDL2_ttf-2.0.12\lib\x86\zlib1.dll" />
+    <None Include="Third Party\SDL\lib\x64\SDL2.dll" />
+    <None Include="Third Party\SDL\lib\x86\SDL2.dll" />
+    <None Include="assets\Block.psd" />
+    <None Include="assets\Bomb.psd" />
+    <None Include="assets\BombHUD.psd" />
+    <None Include="assets\BOSS.psd" />
+    <None Include="assets\DejaVuSans.LICENSE" />
+    <None Include="assets\Floor.psd" />
+    <None Include="assets\Hero.psd" />
+    <None Include="assets\HUD.psd" />
+    <None Include="assets\libfreetype-6.dll" />
+    <None Include="assets\Lives.psd" />
+    <None Include="assets\LockedDoor.psd" />
+    <None Include="assets\Projectile.psd" />
+    <None Include="assets\SDL2.dll" />
+    <None Include="assets\SDL2_ttf.dll" />
+    <None Include="assets\zlib1.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Third Party\SDL2_ttf-2.0.12\lib\x64\LICENSE.freetype.txt" />
+    <Text Include="Third Party\SDL2_ttf-2.0.12\lib\x64\LICENSE.zlib.txt" />
+    <Text Include="Third Party\SDL2_ttf-2.0.12\lib\x86\LICENSE.freetype.txt" />
+    <Text Include="Third Party\SDL2_ttf-2.0.12\lib\x86\LICENSE.zlib.txt" />
+    <Text Include="assets\levels\Boss.txt" />
+    <Text Include="assets\levels\BossLead.txt" />
+    <Text Include="assets\levels\level.txt" />
+    <Text Include="assets\levels\level2.txt" />
+    <Text Include="assets\levels\level3.txt" />
+    <Text Include="assets\levels\level4.txt" />
+    <Text Include="assets\levels\level5.txt" />
+    <Text Include="assets\levels\level6.txt" />
+    <Text Include="assets\levels\level7.txt" />
+    <Text Include="assets\levels\level8.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Third Party\SDL2_ttf-2.0.12\lib\x64\SDL2_ttf.lib" />
+    <Library Include="Third Party\SDL2_ttf-2.0.12\lib\x86\SDL2_ttf.lib" />
+    <Library Include="Third Party\SDL\lib\x64\SDL2.lib" />
+    <Library Include="Third Party\SDL\lib\x64\SDL2main.lib" />
+    <Library Include="Third Party\SDL\lib\x64\SDL2test.lib" />
+    <Library Include="Third Party\SDL\lib\x86\SDL2.lib" />
+    <Library Include="Third Party\SDL\lib\x86\SDL2main.lib" />
+    <Library Include="Third Party\SDL\lib\x86\SDL2test.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Arena.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bomb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boss Door.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boss Key.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Hero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HUD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Person.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Projectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Skeleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SmartMonster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\a4_font.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bat.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Bat2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Bat3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Bat4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Bat5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Block.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Bomb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\BombHUD.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Boss.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\BossDoor.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Dom.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Dom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Door.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Floor.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Gold.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Hero.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Hero2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Hero3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Hero4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Hero5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\HUD.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Key.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Lives.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\LockedDoor.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\mushythemushroom.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Projectile.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Skeleton.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Skeleton2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Skeleton3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Skeleton4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Skeleton5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Wizard_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Wizard_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Wizard_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Wizard_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Wizard_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\WizardBall.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\BACKTO1982.TTF" />
+    <Font Include="assets\DejaVuSans.ttf" />
+  </ItemGroup>
+</Project>
